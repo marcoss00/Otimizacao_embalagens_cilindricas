@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Otimizador de Embalagens</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Otimizador de Embalagens Cilíndricas para Empresas</h1>
+				<p>Está aplicação calcula as dimensões que uma embalagem<br />
+				cilíndrica deve ter para minimizar os custos de produção.</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form action="/resultado" method="POST">
+				<input type="text" id="volume" name="volume" placeholder="Informe o volume que você deseja que a sua embalagem possua (em cm cúbicos)" />
+				<input type="text" id="custo_material" name="custo_material" placeholder="Informe o valor do centímetro quadrado do material utilizado nas laterais e no fundo (em R$)" >
+				<input type="text" id="custo_material_tampa" name="custo_material_tampa" placeholder="Informe o valor do centímetro quadrado do material utilizado na tampa (em R$)" >
+				<input type="submit" value="Calcular" />
+			</form>
+
+
+
+		<!-- Scripts -->
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
