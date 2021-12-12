@@ -1,5 +1,5 @@
-# Otimizacao_embalagens_cilindricas
-Aplicação web feita em flask (framework de python) para diminuir os custos de uma embalagem cilíndrica.
+# Otimizador de Embalagens Cilíndricas
+Aplicação web feita em flask (framework de python) para diminuir os custos na produção de embalagens cilíndricas.
 
 Backend: Python (Flask)
 
