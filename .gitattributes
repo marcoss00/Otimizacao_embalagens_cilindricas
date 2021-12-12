@@ -1,2 +1,1 @@
-linguist-vendored
-.CSS linguist-vendored=false
+*.python linguist-detectable=true
